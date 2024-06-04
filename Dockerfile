@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/polo-0.0.1-SNAPSHOT.jar polo.jar
 
 # Expose the port your application runs on
-EXPOSE 8080
+EXPOSE 8083
 
 # Command to run the JAR file
 ENTRYPOINT ["java", "-jar", "polo.jar"]
